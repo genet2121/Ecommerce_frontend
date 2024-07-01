@@ -7,12 +7,14 @@ import Products from '../Components/Products';
 import Footer from '../Components/NavBars/Footer';
 import PromoBar from '../Components/NavBars/PromoBar';
 import SearchCategory from '../Components/Search';
+import EmailSubscription from '../Components/EmailSubscription';
 const Home: React.FC = () => {
   return (
     <div>
         <PromoBar />
       <Header />
       <SearchCategory />
+      <EmailSubscription />
       {/* <Hero /> */}
       {/* <Categories />
       <Products />

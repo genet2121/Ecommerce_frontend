@@ -55,15 +55,17 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="w-full max-w-screen-xl mb-9 mx-auto h-[63px] bg-white border-t border-b border-gray-200 flex items-center justify-between px-4">
-      <div className="flex items-center">
+    // <div className="w-full max-w-screen-xl mb-9 mx-auto h-[63px] bg-white border-t border-b border-gray-200 flex items-center justify-between px-4">
+    <div className="w-full  mb-20 mx-auto h-[63px] bg-white border-t border-b border-gray-200 flex items-center justify-between px-36">
+
+      <div className="flex items-center ">
         <img src="images/logo.jpg" alt="Logo" className="w-[69px] h-[51px] mr-3" />
         <div className="flex flex-col">
           <div className="text-zinc-800 text-base font-bold font-['Century Gothic']">Time</div>
           <div className="text-purple-900 text-lg font-normal font-['Questrial']">Technologies</div>
         </div>
       </div>
-      <div className="flex items-center space-x-12"> {/* Adjust space-x value as needed */}
+      <div className="flex items-center space-x-16"> {/* Adjust space-x value as needed */}
         <div className="flex items-center text-slate-700 text-base font-bold leading-[70px]">
           <img src="images/deals.jpg" alt="Deals" className="w-5 h-5 mr-1.5" />
           Deals
