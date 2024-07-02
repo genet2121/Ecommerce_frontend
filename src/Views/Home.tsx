@@ -8,6 +8,8 @@ import Footer from '../Components/NavBars/Footer';
 import PromoBar from '../Components/NavBars/PromoBar';
 import SearchCategory from '../Components/Search';
 import EmailSubscription from '../Components/EmailSubscription';
+import QuickDisplay from '../Components/QuickDisplay';
+import DailySubscription from '../Components/DailySubscription';
 const Home: React.FC = () => {
   return (
     <div>
@@ -15,10 +17,12 @@ const Home: React.FC = () => {
       <Header />
       <SearchCategory />
       <EmailSubscription />
-      {/* <Hero /> */}
-      {/* <Categories />
-      <Products />
-      <Footer /> */}
+      
+      <Categories />
+       <Products /> 
+       <QuickDisplay />
+       <DailySubscription />
+      <Footer /> 
     </div>
   );
 };
