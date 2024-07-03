@@ -15,11 +15,11 @@ const Header = () => {
       </div>
       <div className="flex items-center space-x-16"> 
         <NavItem to="/deals" label="Deals" iconSrc="images/deals.jpg" />
-        <NavItem to="/home" label="Home" />
-        <NavItem to="/about" label="About" />
+        <NavItem to="/" label="Home" />
         <NavItem to="/shop" label="Shop" />
         <NavItem to="/sellers" label="Sellers" />
         <NavItem to="/how-it-works" label="How it works" />
+        <NavItem to="/about" label="About" />
         <NavItem to="/contact" label="Contact" />
       </div>
       <div className="flex flex-col items-start ml-10">

@@ -2,8 +2,8 @@
 
 
 import React from "react";
-import ProductCard from "./shared/ProductCard";
-import SectionHeader from "./shared/SectionHeader";
+import ProductCard from "../shared/ProductCard";
+import SectionHeader from "../shared/SectionHeader";
 
 const Products = () => {
   return (
@@ -66,26 +66,7 @@ const Products = () => {
           price="52.85"
           oldPrice="55.8"
         />
-           <ProductCard
-          imgSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/b5652351deba30b8423d3628690e90ea29e38ff86572fc938677defd2e7af659?apiKey=4e645b7baa1b40a5bedea55067e1f89f&width=2000"
-          imgAlt="Hodo Foods"
-          category="Hodo Foods"
-          name="All Natural Italian-Style Chicken Meatballs"
-          rating="3.5"
-          seller="Stouffer"
-          price="52.85"
-          oldPrice="55.8"
-        />
-           <ProductCard
-          imgSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/b5652351deba30b8423d3628690e90ea29e38ff86572fc938677defd2e7af659?apiKey=4e645b7baa1b40a5bedea55067e1f89f&width=2000"
-          imgAlt="Hodo Foods"
-          category="Hodo Foods"
-          name="All Natural Italian-Style Chicken Meatballs"
-          rating="3.5"
-          seller="Stouffer"
-          price="52.85"
-          oldPrice="55.8"
-        />
+          
         {/* Add more ProductCard components as needed */}
       </div>
     </div>

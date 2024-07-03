@@ -1,31 +1,33 @@
 // src/view/Home.tsx
 import React from 'react';
 import Header from '../Components/NavBars/TopNav';
-import Hero from '../Components/Hero';
-import Categories from '../Components/Categories';
-import Products from '../Components/Products';
-import Footer from '../Components/NavBars/Footer';
+
+import Categories from '../Components/HomePage/Categories';
+import Products from '../Components/HomePage/Products';
+
 import PromoBar from '../Components/NavBars/PromoBar';
-import SearchCategory from '../Components/Search';
-import EmailSubscription from '../Components/EmailSubscription';
-import QuickDisplay from '../Components/QuickDisplay';
-import DailySubscription from '../Components/DailySubscription';
+import SearchCategory from '../Components/HomePage/Search';
+import EmailSubscription from '../Components/HomePage/EmailSubscription';
+import QuickDisplay from '../Components/HomePage/QuickDisplay';
+import DailySubscription from '../Components/HomePage/DailySubscription';
+import FooterCom from '../Components/NavBars/FooterCom';
 const Home: React.FC = () => {
   return (
     <div>
-        <PromoBar />
+      <PromoBar />
       <Header />
       <SearchCategory />
       <EmailSubscription />
-      
       <Categories />
-       <Products /> 
-       <QuickDisplay />
-       <DailySubscription />
-      <Footer /> 
+      <Products />
+      <QuickDisplay />
+      <DailySubscription />
+      <FooterCom />
+    
+      
     </div>
   );
 };
 
 export default Home;
-;
+

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Footer =() =>{
+const FooterCom = () => {
   return (
     <div className="flex flex-col items-center px-20 py-5 bg-stone-50 max-md:px-5">
       <div className="flex gap-5 justify-between w-full max-w-[1657px] max-md:flex-wrap max-md:max-w-full">
@@ -17,11 +17,12 @@ const Footer =() =>{
             </div>
           </div>
           <div className="mt-6 text-lg text-slate-700">
-            Ethiopias leading B2C E-commerce platform
+            Ethiopian's leading B2C E-commerce platform
           </div>
           <div className="flex gap-2 mt-9 font-semibold leading-[160%] text-slate-700">
             <img
               loading="lazy"
+              alt="Address Icon"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e0d00482998ea01d4d002eafcca3f304ce4ccd51ce6ad8dfaffd517278a59ea3?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 self-start w-4 aspect-[0.94]"
             />
@@ -33,6 +34,7 @@ const Footer =() =>{
           <div className="flex gap-2 mt-4 font-semibold text-slate-700">
             <img
               loading="lazy"
+              alt="Phone Icon"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/0f155a53d55f91a17c8550b51debd09c8cbed0f83464160b39812a0c1a32153e?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 self-start w-4 aspect-square"
             />
@@ -43,6 +45,7 @@ const Footer =() =>{
           <div className="flex gap-2 mt-3.5 font-semibold leading-[160%] text-slate-700">
             <img
               loading="lazy"
+              alt="Email Icon"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/62f134b82a7c3c51cdc1158e6fc465afa830c2bf18d6ed8df532c0635259f2e1?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 self-start w-4 aspect-[0.94]"
             />
@@ -51,6 +54,7 @@ const Footer =() =>{
           <div className="flex gap-2 mt-4 font-semibold text-slate-700">
             <img
               loading="lazy"
+              alt="Clock Icon"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/48665159e1027e2056296e2a9c6c0f2fb66d2a2773de4d39cecbec37c8e27782?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 self-start w-4 aspect-square"
             />
@@ -99,11 +103,13 @@ const Footer =() =>{
           <div className="flex gap-3 mt-16 max-md:pr-5 max-md:mt-10">
             <img
               loading="lazy"
+              alt="Google Play Store Icon"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/32a0aad8a2787712faf011052b26a2cdf91c45fb77652e1431d6751418f82dc1?apiKey=7cc667458d2043d895938c0111c31bd4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/32a0aad8a2787712faf011052b26a2cdf91c45fb77652e1431d6751418f82dc1?apiKey=7cc667458d2043d895938c0111c31bd4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/32a0aad8a2787712faf011052b26a2cdf91c45fb77652e1431d6751418f82dc1?apiKey=7cc667458d2043d895938c0111c31bd4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/32a0aad8a2787712faf011052b26a2cdf91c45fb77652e1431d6751418f82dc1?apiKey=7cc667458d2043d895938c0111c31bd4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/32a0aad8a2787712faf011052b26a2cdf91c45fb77652e1431d6751418f82dc1?apiKey=7cc667458d2043d895938c0111c31bd4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/32a0aad8a2787712faf011052b26a2cdf91c45fb77652e1431d6751418f82dc1?apiKey=7cc667458d2043d895938c0111c31bd4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/32a0aad8a2787712faf011052b26a2cdf91c45fb77652e1431d6751418f82dc1?apiKey=7cc667458d2043d895938c0111c31bd4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/32a0aad8a2787712faf011052b26a2cdf91c45fb77652e1431d6751418f82dc1?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 w-32 max-w-full aspect-[3.03]"
             />
             <img
               loading="lazy"
+              alt="Apple Store Icon"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/da021da879ae07ade06fa8692ba90175cdaa4bdbabe1c624f00409ad7e3a37f0?apiKey=7cc667458d2043d895938c0111c31bd4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/da021da879ae07ade06fa8692ba90175cdaa4bdbabe1c624f00409ad7e3a37f0?apiKey=7cc667458d2043d895938c0111c31bd4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/da021da879ae07ade06fa8692ba90175cdaa4bdbabe1c624f00409ad7e3a37f0?apiKey=7cc667458d2043d895938c0111c31bd4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/da021da879ae07ade06fa8692ba90175cdaa4bdbabe1c624f00409ad7e3a37f0?apiKey=7cc667458d2043d895938c0111c31bd4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/da021da879ae07ade06fa8692ba90175cdaa4bdbabe1c624f00409ad7e3a37f0?apiKey=7cc667458d2043d895938c0111c31bd4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/da021da879ae07ade06fa8692ba90175cdaa4bdbabe1c624f00409ad7e3a37f0?apiKey=7cc667458d2043d895938c0111c31bd4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/da021da879ae07ade06fa8692ba90175cdaa4bdbabe1c624f00409ad7e3a37f0?apiKey=7cc667458d2043d895938c0111c31bd4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/da021da879ae07ade06fa8692ba90175cdaa4bdbabe1c624f00409ad7e3a37f0?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 w-32 max-w-full aspect-[3.03]"
             />
@@ -117,21 +123,25 @@ const Footer =() =>{
           <div className="flex gap-5 mt-5 max-md:pr-5">
             <img
               loading="lazy"
+              alt="Social Media Icon 1"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/248ccb9f26093d31b1f35eb30debf98a2cd2e3091d1449158811167e97f817cc?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-[1.08] w-[29px]"
             />
             <img
               loading="lazy"
+              alt="Social Media Icon 2"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e8b7e19d791bf87451761988e06650e2b55815ab252224dea5595c82700e7ad6?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-[1.08] w-[29px]"
             />
             <img
               loading="lazy"
+              alt="Social Media Icon 3"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c27c3d2481ad0287d04556a0bffae791933f70a20c407486fe506eb098903d7d?apiKey=7cc667458d2043d895938c0111c31bd4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c27c3d2481ad0287d04556a0bffae791933f70a20c407486fe506eb098903d7d?apiKey=7cc667458d2043d895938c0111c31bd4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c27c3d2481ad0287d04556a0bffae791933f70a20c407486fe506eb098903d7d?apiKey=7cc667458d2043d895938c0111c31bd4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c27c3d2481ad0287d04556a0bffae791933f70a20c407486fe506eb098903d7d?apiKey=7cc667458d2043d895938c0111c31bd4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c27c3d2481ad0287d04556a0bffae791933f70a20c407486fe506eb098903d7d?apiKey=7cc667458d2043d895938c0111c31bd4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c27c3d2481ad0287d04556a0bffae791933f70a20c407486fe506eb098903d7d?apiKey=7cc667458d2043d895938c0111c31bd4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c27c3d2481ad0287d04556a0bffae791933f70a20c407486fe506eb098903d7d?apiKey=7cc667458d2043d895938c0111c31bd4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c27c3d2481ad0287d04556a0bffae791933f70a20c407486fe506eb098903d7d?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 w-7 aspect-[1.04]"
             />
             <img
               loading="lazy"
+              alt="Social Media Icon 4"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/823d27c0283ee8c80163283875a27e5b7a071ec84ebf1d58d5b4b9d7ae5eba56?apiKey=7cc667458d2043d895938c0111c31bd4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/823d27c0283ee8c80163283875a27e5b7a071ec84ebf1d58d5b4b9d7ae5eba56?apiKey=7cc667458d2043d895938c0111c31bd4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/823d27c0283ee8c80163283875a27e5b7a071ec84ebf1d58d5b4b9d7ae5eba56?apiKey=7cc667458d2043d895938c0111c31bd4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/823d27c0283ee8c80163283875a27e5b7a071ec84ebf1d58d5b4b9d7ae5eba56?apiKey=7cc667458d2043d895938c0111c31bd4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/823d27c0283ee8c80163283875a27e5b7a071ec84ebf1d58d5b4b9d7ae5eba56?apiKey=7cc667458d2043d895938c0111c31bd4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/823d27c0283ee8c80163283875a27e5b7a071ec84ebf1d58d5b4b9d7ae5eba56?apiKey=7cc667458d2043d895938c0111c31bd4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/823d27c0283ee8c80163283875a27e5b7a071ec84ebf1d58d5b4b9d7ae5eba56?apiKey=7cc667458d2043d895938c0111c31bd4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/823d27c0283ee8c80163283875a27e5b7a071ec84ebf1d58d5b4b9d7ae5eba56?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-[1.08] w-[29px]"
             />
@@ -149,6 +159,7 @@ const Footer =() =>{
           <div className="flex gap-3 items-start">
             <img
               loading="lazy"
+              alt="Social Media Icon 4"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/bbefd3121d935dc4f31aed877d74bccad107db42e147b7a30b8bffb25419aeae?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-[0.79] w-[30px]"
             />
@@ -164,6 +175,7 @@ const Footer =() =>{
           <div className="flex gap-3.5 items-start">
             <img
               loading="lazy"
+              alt="Social Media Icon 4"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/1dc05572dc0d39d7d3c5c441b9a09f2061edc54f8b7dedacf152d75e226bb25e?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-[0.79] w-[30px]"
             />
@@ -184,26 +196,31 @@ const Footer =() =>{
           <div className="flex gap-1.5">
             <img
               loading="lazy"
+              alt="Social Media Icon 4"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/3e6dfcf5cec92388db8b1bb805f908e850c8d2d95105c964e647cfe3176eafbb?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-square w-[30px]"
             />
             <img
               loading="lazy"
+              alt="Social Media Icon5"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/41ece22da4f9239be6d8f3a18e870086413d13818321250de4c65472e22e658e?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-square w-[30px]"
             />
             <img
               loading="lazy"
+              alt="Social Media Icon 6"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/32b182dc42274c2d7b48b5b5b801719adf54baecad69134cd836909f53e506d4?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-square w-[30px]"
             />
             <img
               loading="lazy"
+              alt="Social Media Icon 5"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a6698805b3b6d9850b864dec53c8bef91940935ddeedfab64cb8d6d3c7e6384?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-square w-[30px]"
             />
             <img
               loading="lazy"
+              alt="Social Media Icon 6"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/cf49e66d168783011b6706f1b585f43d8d4af79413bc53305c84f7c83c70f759?apiKey=7cc667458d2043d895938c0111c31bd4&"
               className="shrink-0 aspect-square w-[30px]"
             />
@@ -214,4 +231,4 @@ const Footer =() =>{
   );
 }
 
-export default Footer;
+export default FooterCom;
